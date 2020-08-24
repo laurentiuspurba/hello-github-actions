@@ -7,11 +7,15 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  MY_GENDER:
+    description: "Gender"
+    required: true
+    default: "Female"
 
 runs:
   using: "docker"
   image: "Dockerfile"
 
 branding:
-  icon: "play"
-  color: "purple"
+  icon: "bell"
+  color: "green"
